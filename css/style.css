@@ -1,0 +1,51 @@
+.container{
+	display: flex;
+	flex-direction: row;
+	width: 95%;
+	margin: 0 auto;
+	padding: 1%;
+	border-bottom: 2px solid #ddd;
+}
+.leftchild{
+	width: 45%;
+	padding: 1%;
+	margin: 1%;
+}
+.rightchild{
+	width: 45%;
+	padding: 1%;
+	margin: 1%;
+}
+.leftchild img
+{
+	width: 40%;
+	height: auto;
+}
+.banner{
+	width: 95%;
+	margin: 0 auto;
+	border: 1px solid #ddd;
+}
+.banner img{
+	width: 100%;
+	height: auto;
+}
+.bikes{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.card{
+	width: 25%;
+	border: 1px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+}
+.card img{
+	width: 60%;
+	height: auto;
+}
+h3,
+p{
+	text-align: center;
+}
